@@ -83,6 +83,11 @@ class SKTwoIAP: ObservableObject {
             
             // 检验单据
             let transaction = try localCheckVerified(result: verification)
+            
+            let jwsRepresentation = verification.jwsRepresentation;
+            print("jwsRepresentation is \(jwsRepresentation)")
+            print("transaction.jsonRepresentation is \(transaction.jsonRepresentation)")
+            
             // 结束本次事务，完成购买
             await transaction.finish()
 

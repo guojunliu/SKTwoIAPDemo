@@ -1,0 +1,65 @@
+{
+  "identifier" : "E8BE4D16",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "0B8E0C7E",
+      "localizations" : [
+        {
+          "description" : "100",
+          "displayName" : "200个金币",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.coin100",
+      "referenceName" : "100个金币",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "674FCF88",
+      "localizations" : [
+        {
+          "description" : "200",
+          "displayName" : "200个金币",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.coin200",
+      "referenceName" : "200个金币",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "46DA68EF",
+      "localizations" : [
+        {
+          "description" : "300",
+          "displayName" : "300个金币",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.coin300",
+      "referenceName" : "300个金币",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_compatibilityTimeRate" : 6,
+    "_timeRate" : 15
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
